@@ -79,7 +79,7 @@ if __name__ == '__main__':
     if str(fig_save) == 'y':
         plt.savefig(str(fig_name) + "." + str(fig_type), dpi = int(fig_dpi))
         
-    plt.show()
+    #plt.show()
     
     
     
