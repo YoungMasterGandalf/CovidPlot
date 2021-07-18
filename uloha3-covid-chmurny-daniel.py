@@ -4,7 +4,7 @@ import numpy as np
 
 plt.style.use('C:/Users/42077/OneDrive/Documents/PythonScripts/Scientific_plot/scientific.mplstyle')
 
-data = pd.read_csv('owid-covid-data.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv')
 
 
 
