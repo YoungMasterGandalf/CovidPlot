@@ -4,7 +4,7 @@ import numpy as np
 
 plt.style.use('C:/Users/42077/OneDrive/Documents/PythonScripts/Scientific_plot/scientific.mplstyle')
 
-data = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv')
 
 
 
@@ -79,7 +79,7 @@ if __name__ == '__main__':
     if str(fig_save) == 'y':
         plt.savefig(str(fig_name) + "." + str(fig_type), dpi = int(fig_dpi))
         
-    #plt.show()
+    plt.show()
     
     
     
