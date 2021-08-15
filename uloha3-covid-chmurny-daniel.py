@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.style.use('C:/Users/42077/OneDrive/Documents/PythonScripts/Scientific_plot/scientific.mplstyle')
+#plt.style.use('C:/Users/42077/OneDrive/Documents/PythonScripts/Scientific_plot/scientific.mplstyle')
 
 data = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv')
 
